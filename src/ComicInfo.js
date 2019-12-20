@@ -19,7 +19,7 @@ class ComicInfo extends Component {
           </ul>
         </div>
         <p>
-          This is a standard license and is basically meant to give you maximum freedom to use these comics without outright letting you resell them. For details of the license, I encourage you to read it for yourself, this paragraph is non binding. That being said, I am pretty flexible. If you want to use these in some commercial work (for instance a textbook), just ask me at quackackjack@gmail.com. I will likely allow it as long as the most substantial piece of the commercial work is not mine.
+          This is a standard license and is basically meant to give you maximum freedom to use these comics without outright letting you resell them. For details of the license, I encourage you to read it for yourself, this paragraph is non binding. That being said, I am pretty flexible. If you want to use these in some commercial work (for instance a textbook), just ask me at quackackjac@gmail.com. I will likely allow it as long as the most substantial piece of the commercial work is not mine.
         </p>
         <h2>About Me</h2>
         <p>

@@ -8,14 +8,14 @@ class comicPage extends Component {
     // Required step: always call the parent class' constructor
     super(props);
     
-    const comicCount = 14;
+    const comicCount = 20;
 	  const comicIndex = this.getComicNumber(comicCount);
     
     // Set the state directly. Use props if necessary.
     this.state =  {
       comicData: {
         "index": comicIndex,
-        "date": "2019-08-01",
+        "date": "2019-12-15",
         "name": "Comic Meta Data Loading",
         "image": "https://quackack.com/data/comics/images/" + comicIndex + ".jpeg",
         "extra_text": "Comic Meta data not yet loaded.",
