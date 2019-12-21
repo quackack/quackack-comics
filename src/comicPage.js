@@ -3,13 +3,17 @@ import ComicSelector from './ComicSelector';
 import Comic from './Comic';
 import ComicInfo from './ComicInfo';
 
+import {COMIC_COUNT, COMIC_FOLDER} from './Constants';
+
 class comicPage extends Component {
   constructor(props) {
     // Required step: always call the parent class' constructor
     super(props);
+
+	  const comicIndex = this.getComicNumber(COMIC_COUNT);
     
-    const comicCount = 20;
-	  const comicIndex = this.getComicNumber(comicCount);
+    const IMAGE_FOLDER = COMIC_FOLDER + 'images/';
+    const META_DATA_FOLDER = COMIC_FOLDER + 'metadata/';
     
     // Set the state directly. Use props if necessary.
     this.state =  {
@@ -17,12 +21,14 @@ class comicPage extends Component {
         "index": comicIndex,
         "date": "2019-12-15",
         "name": "Comic Meta Data Loading",
-        "image": "https://quackack.com/data/comics/images/" + comicIndex + ".jpeg",
+        "image": IMAGE_FOLDER + comicIndex + ".avif",
         "extra_text": "Comic Meta data not yet loaded.",
         "comic_text": "Image is still loading."
       },
       comicIndex: comicIndex,
-      comicCount: comicCount
+      comicCount: COMIC_COUNT,
+      imageFolder: IMAGE_FOLDER,
+      metaDataFolder: META_DATA_FOLDER
     }
     this.setStateIndex(comicIndex);
   }
@@ -44,13 +50,14 @@ class comicPage extends Component {
     this.setState({
       comicIndex: i
     });
-    const url = "https://quackack.com/data/comics/metadata/" + i + ".json";
+    const url = this.state.metaDataFolder + i + ".json";
     fetch(url).then(result => result.json()).then(result => {
-      this.setState({
-        comicData: result,
-        comicIndex: i
+        result.image = this.state.imageFolder + result.image;
+        this.setState({
+          comicData: result,
+          comicIndex: i
+        });
       });
-    });
   }
 
   updateIndex = () => {
