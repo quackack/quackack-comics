@@ -43,12 +43,18 @@ ul {
 }
 .Icon {
   float: right;
-  max-width: 50%;
+  max-width: 30%;
+}
+
+
+.RightIcon {
+  float: right;
+  max-width: 20%;
 }
 
 .LeftIcon {
   float: left;
-  max-width: 50%;
+  max-width: 20%;
 }
 
 p {
@@ -82,6 +88,10 @@ p {
 }
 
 @media only screen and (min-device-width: 320px) and (orientation: landscape) {
+  .Icon {
+  float: right;
+  max-width: 50%;
+}
   .Comic, .ComicSelectorOptions {
   min-width: 1024px;
 }

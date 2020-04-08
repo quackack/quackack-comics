@@ -33,11 +33,14 @@ class ComicInfo extends Component {
           I also wrote children's book teaching set theory called <a href="https://quackack.com/data/books/pdfs/A_Stroll_Through_Cecilys_Sets.pdf">A Stroll Through Cecily\'s Sets</a> (<a href="https://www.amazon.com/dp/1073606279">In Print</a>) . Obviously I have also created these web comics and hope to do more work in the future.
         </p>
         <div className="clear"></div>
+        
+        
         <h2>Other things to look at</h2>
         <h3>Social Media</h3>
         <div className="CenteredList">
           <ul>
-            <li><a href="https://twitter.com/Quackackjac">twitter</a></li>
+            <li><a href="https://twitter.com/Quackackjac">Twitter</a></li>
+            <li><a href="https://fb.me/quackackjac">Facebook</a></li>
           </ul>
         </div>
         <h3>Other Web Comics</h3>

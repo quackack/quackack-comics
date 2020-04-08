@@ -9,7 +9,7 @@ class comicPage extends Component {
     // Required step: always call the parent class' constructor
     super(props);
     
-    const comicCount = 31;
+    const comicCount = 32;
 	  const comicIndex = this.getComicNumber(comicCount);
     
     // Set the state directly. Use props if necessary.
@@ -65,7 +65,7 @@ class comicPage extends Component {
     this.updateIndex();
     return (
       <div className="ComicPage">
-        <img className="Icon" src={SmallIcon} title="Quackack Icon" alt="A speaker with a duck bill taped to it."/>
+        <img className="RightIcon" src={SmallIcon} title="Quackack Icon" alt="A speaker with a duck bill taped to it."/>
         <img className="LeftIcon" src={SmallIcon} title="Quackack Icon" alt="A speaker with a duck bill taped to it."/>
         <h1>Quackack</h1>
         <p>A web comic about computer science, and randomness. "Making the comics no one else would."</p>
