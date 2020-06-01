@@ -36,6 +36,13 @@ class ComicInfo extends Component {
         
         
         <h2>Other things to look at</h2>
+        <h3>My Products</h3>
+        <div className="CenteredList">
+          <ul>
+            <li><a href="https://teespring.com/stores/Quackack">My Shirts</a></li>
+            <li><a href="https://www.amazon.com/dp/1073606279">My Books</a> (<a href="https://quackack.com/data/books/pdfs/A_Stroll_Through_Cecilys_Sets.pdf">Free Online</a>)</li>
+          </ul>
+        </div>
         <h3>Social Media</h3>
         <div className="CenteredList">
           <ul>
@@ -52,6 +59,7 @@ class ComicInfo extends Component {
             <li><a href="http://mistakes.ryanestrada.com/">Ryan Made Mistakes</a></li>
             <li><a href="https://www.nerfnow.com/">Nerf Now</a></li>
             <li><a href="https://www.webtoons.com/en/challenge/system32comics/list?title_no=235074">System32Comics</a></li>
+            <li><a href="http://madeofmistake.com/">MadeOfMistake</a></li>
           </ul>
         </div>
         <h3>Children's Books</h3>
@@ -61,8 +69,6 @@ class ComicInfo extends Component {
             <li><a href="https://www.amazon.com/gp/product/B078WTZ6BT">The Baby Biochemist</a></li>
             <li><a href="https://www.amazon.com/Dr-Dhoot/e/B07L6P5176">Tinker Toddlers</a></li>
             <li><a href="https://www.sourcebooks.com/baby-university.html">Baby University</a></li>
-            <li><a href="https://www.suzanneslade.com/">Suzanne Slade</a></li>
-            <li><a href="http://mirandapaul.com/nonfiction-and-informational-fiction/">Miranda Paul</a></li>
           </ul>
         </div>
         <h3>Others</h3>

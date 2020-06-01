@@ -9,7 +9,7 @@ class comicPage extends Component {
     // Required step: always call the parent class' constructor
     super(props);
     
-    const comicCount = 32;
+    const comicCount = 38;
 	  const comicIndex = this.getComicNumber(comicCount);
     
     // Set the state directly. Use props if necessary.
