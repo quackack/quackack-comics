@@ -60,22 +60,32 @@ class ComicInfo extends Component {
             <li><a href="https://www.nerfnow.com/">Nerf Now</a></li>
             <li><a href="https://www.webtoons.com/en/challenge/system32comics/list?title_no=235074">System32Comics</a></li>
             <li><a href="http://madeofmistake.com/">MadeOfMistake</a></li>
+            <li><a href="https://heybuddycomics.com/">Hey Buddy Comics</a></li>
+            <li><a href="http://leftycartoons.com/">Lefty Cartoons</a></li>
           </ul>
         </div>
         <h3>Children's Books</h3>
         <div className="CenteredList">
           <ul>
             <li><a href="https://www.amazon.com/dp/1073606279">My Books</a> (<a href="https://quackack.com/data/books/pdfs/A_Stroll_Through_Cecilys_Sets.pdf">Free Online</a>)</li>
-            <li><a href="https://www.amazon.com/gp/product/B078WTZ6BT">The Baby Biochemist</a></li>
+            <li><a href="https://www.amazon.com/Margot-Alesund/e/B06X6JSMM1">The Baby Biochemist</a></li>
             <li><a href="https://www.amazon.com/Dr-Dhoot/e/B07L6P5176">Tinker Toddlers</a></li>
             <li><a href="https://www.sourcebooks.com/baby-university.html">Baby University</a></li>
+          </ul>
+        </div>
+        <h3>Black Lives Matter</h3>
+        <div className="CenteredList">
+          <ul>
+            <li><a href="https://www.joincampaignzero.org">Campaign Zero</a> (Strategies to End Police Violence in America)</li>
+            <li><a href="http://gritsforbreakfast.org/">Grits For Breakfast</a> (Local Texas Criminal Justice)</li>
+            <li><a href="https://austinjustice.org/">Austin Justice Coalition</a> (Local Austin Racial Justice Group)</li>
           </ul>
         </div>
         <h3>Others</h3>
         <div className="CenteredList">
           <ul>
-            <li><a href="http://www.welcometonightvale.com/">Welcome to Night Vale</a> (Weird, Creepy, Funny)</li>
-            <li><a href="https://littlefreelibrary.org/">Little Free Library</a></li>
+            <li><a href="http://www.welcometonightvale.com/">Welcome to Night Vale</a> (Weird, Creepy, Funny podcast)</li>
+            <li><a href="https://littlefreelibrary.org/">Little Free Library</a> (Making Books Accessible)</li>
           </ul>
         </div>
       </div>
