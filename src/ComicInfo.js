@@ -86,6 +86,7 @@ class ComicInfo extends Component {
           <ul>
             <li><a href="http://www.welcometonightvale.com/">Welcome to Night Vale</a> (Weird, Creepy, Funny podcast)</li>
             <li><a href="https://littlefreelibrary.org/">Little Free Library</a> (Making Books Accessible)</li>
+            <li><a href="https://www.sevenhillsherald.com/">Seven Hills Herald</a> (Satirizing The Modern Church)</li>
           </ul>
         </div>
       </div>
