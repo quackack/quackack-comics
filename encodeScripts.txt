@@ -1,0 +1,6 @@
+for FILE in $(ls ./HighQualityVersions); do
+origin=./HighQualityVersions/$FILE
+filename=$(basename -s .png "$FILE")
+destination=./avif_version/${filename}.avif
+./avifenc.exe -j 2 -s 0 --max 32 $origin $destination
+done

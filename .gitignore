@@ -10,6 +10,8 @@
 
 # production
 /build
+/public/comics
+/public/comics/**/*
 
 # misc
 .DS_Store

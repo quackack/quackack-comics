@@ -4,26 +4,31 @@ import Comic from './Comic';
 import ComicInfo from './ComicInfo';
 import SmallIcon from './images/SmallIcon.png';
 
+import {COMIC_COUNT, COMIC_FOLDER} from './Constants';
+
 class comicPage extends Component {
   constructor(props) {
     // Required step: always call the parent class' constructor
     super(props);
     
-    const comicCount = 43;
-	  const comicIndex = this.getComicNumber(comicCount);
+    const comicIndex = this.getComicNumber(COMIC_COUNT);
+
+    const IMAGE_FOLDER = COMIC_FOLDER + 'images/';
+    const META_DATA_FOLDER = COMIC_FOLDER + 'metadata/';
     
     // Set the state directly. Use props if necessary.
     this.state =  {
       comicData: {
         "index": comicIndex,
-        "date": "2020-07-06",
+        "date": "2020-08-16",
         "name": "Comic Meta Data Loading",
-        "image": "https://quackack.com/data/comics/images/" + comicIndex + ".jpeg",
         "extra_text": "Comic Meta data not yet loaded.",
         "comic_text": "Image is still loading."
       },
       comicIndex: comicIndex,
-      comicCount: comicCount
+      comicCount: COMIC_COUNT,
+      imageFolder: IMAGE_FOLDER,
+      metaDataFolder: META_DATA_FOLDER
     }
     this.setStateIndex(comicIndex);
   }
@@ -42,10 +47,7 @@ class comicPage extends Component {
   }
 
   setStateIndex = i => {
-    this.setState({
-      comicIndex: i
-    });
-    const url = "https://quackack.com/data/comics/metadata/" + i + ".json";
+    const url = this.state.metaDataFolder + i + ".json";
     fetch(url).then(result => result.json()).then(result => {
       this.setState({
         comicData: result,
@@ -73,7 +75,7 @@ class comicPage extends Component {
         <div className="clear"></div>
         <h2>{this.state.comicData.name}</h2>
         <ComicSelector comicIndex={this.state.comicIndex} comicCount={this.state.comicCount}/>
-        <Comic comicData={this.state.comicData}/>
+        <Comic comicData={this.state.comicData} imageFolder={this.state.imageFolder}/>
         <h3 className="ComicDate">Creation Date: {this.state.comicData.date}</h3>
         <ComicSelector comicIndex={this.state.comicIndex} comicCount={this.state.comicCount}/>
         <ComicInfo />
