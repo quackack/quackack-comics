@@ -48,6 +48,7 @@ class ComicInfo extends Component {
           <ul>
             <li><a href="https://twitter.com/Quackackjac">Twitter</a></li>
             <li><a href="https://fb.me/quackackjac">Facebook</a></li>
+            <li><a href="https://quackack.com/rss/comic.rss">RSS Feed</a></li>
           </ul>
         </div>
         <h3>Other Web Comics</h3>

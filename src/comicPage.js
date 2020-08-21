@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-import ComicSelector from './ComicSelector';
 import Comic from './Comic';
 import ComicInfo from './ComicInfo';
 import SmallIcon from './images/SmallIcon.png';
 
-import {COMIC_COUNT, COMIC_FOLDER} from './Constants';
+import {COMIC_COUNT, COMIC_IMAGE_FOLDER, COMIC_META_DATA_FOLDER} from './Constants';
 
 class comicPage extends Component {
   constructor(props) {
@@ -12,9 +11,6 @@ class comicPage extends Component {
     super(props);
     
     const comicIndex = this.getComicNumber(COMIC_COUNT);
-
-    const IMAGE_FOLDER = COMIC_FOLDER + 'images/';
-    const META_DATA_FOLDER = COMIC_FOLDER + 'metadata/';
     
     // Set the state directly. Use props if necessary.
     this.state =  {
@@ -25,10 +21,7 @@ class comicPage extends Component {
         "extra_text": "Comic Meta data not yet loaded.",
         "comic_text": "Image is still loading."
       },
-      comicIndex: comicIndex,
-      comicCount: COMIC_COUNT,
-      imageFolder: IMAGE_FOLDER,
-      metaDataFolder: META_DATA_FOLDER
+      comicIndex: comicIndex
     }
     this.setStateIndex(comicIndex);
   }
@@ -47,7 +40,7 @@ class comicPage extends Component {
   }
 
   setStateIndex = i => {
-    const url = this.state.metaDataFolder + i + ".json";
+    const url = COMIC_META_DATA_FOLDER + i + ".json";
     fetch(url).then(result => result.json()).then(result => {
       this.setState({
         comicData: result,
@@ -73,11 +66,7 @@ class comicPage extends Component {
         <p>A web comic about computer science, and randomness. "Making the comics no one else would."</p>
         
         <div className="clear"></div>
-        <h2>{this.state.comicData.name}</h2>
-        <ComicSelector comicIndex={this.state.comicIndex} comicCount={this.state.comicCount}/>
-        <Comic comicData={this.state.comicData} imageFolder={this.state.imageFolder}/>
-        <h3 className="ComicDate">Creation Date: {this.state.comicData.date}</h3>
-        <ComicSelector comicIndex={this.state.comicIndex} comicCount={this.state.comicCount}/>
+        <Comic comicData={this.state.comicData} imageFolder={COMIC_IMAGE_FOLDER}  comicCount={COMIC_COUNT}/>
         <ComicInfo />
       </div>
     )

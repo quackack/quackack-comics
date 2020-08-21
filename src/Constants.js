@@ -12,3 +12,5 @@ if(os.hostname().indexOf("local") > -1) {
 }
 
 export const COMIC_FOLDER = data_folder + 'comics/'
+export const COMIC_IMAGE_FOLDER = COMIC_FOLDER + 'images/';
+export const COMIC_META_DATA_FOLDER = COMIC_FOLDER + 'metadata/';

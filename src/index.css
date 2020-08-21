@@ -57,6 +57,13 @@ ul {
   max-width: 20%;
 }
 
+.Advertisement {
+  color: #a0d0d0;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 p {
   text-align: center;
   margin-left: 5%;
