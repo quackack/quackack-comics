@@ -1,6 +1,15 @@
 for FILE in $(ls ./HighQualityVersions); do
 origin=./HighQualityVersions/$FILE
 filename=$(basename -s .png "$FILE")
-destination=./avif_version/${filename}.avif
-./avifenc.exe -j 2 -s 0 --max 32 $origin $destination
+destination=./avif_named_version/${filename}.avif
+./cavif.exe -i $origin -o $destination --encoder-usage good --cpu-used 0 --threads 2 --show-result --qmax 24
 done
+
+
+./cavif -i ./Icon_medium.png -o output-alpha.avif --lossless --encode-target alpha --monochrome
+./cavif.exe -i ./Icon_medium.png -o Icon_medium.avif --lossless --encode-target image --attach-alpha output-alpha.avif --matrix-coefficients sRGB --encoder-usage good --cpu-used 0 --threads 2
+
+
+./cavif.exe -i ./HighQualityVersions/AgentPSPACE.png -o ./avif_version/46.avif --encoder-usage good --cpu-used 0 --threads 2 --show-result --qmax 24
+
+./cavif.exe -i ./HighQualityVersions/HappyComic49.png -o ./avif_version/49.avif --encoder-usage good --cpu-used 0 --threads 2 --show-result --qmax 24

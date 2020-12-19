@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Comic from './Comic';
 import ComicInfo from './ComicInfo';
-import SmallIcon from './images/SmallIcon.png';
+import Header from './Header';
 
 import {COMIC_COUNT, COMIC_IMAGE_FOLDER, COMIC_META_DATA_FOLDER} from './Constants';
 
@@ -60,10 +60,7 @@ class comicPage extends Component {
     this.updateIndex();
     return (
       <div className="ComicPage">
-        <img className="RightIcon" src={SmallIcon} title="Quackack Icon" alt="A speaker with a duck bill taped to it."/>
-        <img className="LeftIcon" src={SmallIcon} title="Quackack Icon" alt="A speaker with a duck bill taped to it."/>
-        <h1>Quackack</h1>
-        <p>A web comic about computer science, and randomness. "Making the comics no one else would."</p>
+        <Header />
         
         <div className="clear"></div>
         <Comic comicData={this.state.comicData} imageFolder={COMIC_IMAGE_FOLDER}  comicCount={COMIC_COUNT}/>

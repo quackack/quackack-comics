@@ -5,7 +5,7 @@ class ComicInfo extends Component {
   render() {
     return (
       <div className="ComicInfo">
-          <img className="Icon" src={MediumIcon} title="Quackack Icon" alt="A speaker with a duck bill taped to it."/>
+        <img className="Icon" src={MediumIcon} title="Quackack Icon" alt="A speaker with a duck bill taped to it."/>
         <div className="License">
           <h2>License</h2>
           <p>
@@ -27,7 +27,7 @@ class ComicInfo extends Component {
         </div>
         <h2>About Me</h2>
         <p>
-          I am a software engineer and a computer scientist. I am currently pursueing a PhD in theoretical computer science. For more information, check my <a href="https://www.linkedin.com/in/joshua-cook-bb2053b2/">linked in</a>.
+          I am a software engineer and a computer scientist. I am currently pursueing a PhD in theoretical computer science. For more information, check my <a href="https://www.cs.utexas.edu/~jacook7/">professional website</a> or my <a href="https://www.linkedin.com/in/joshua-cook-bb2053b2/">linked in</a>.
         </p>
         <p>
           I also wrote children's book teaching set theory called <a href="https://quackack.com/data/books/pdfs/A_Stroll_Through_Cecilys_Sets.pdf">A Stroll Through Cecily\'s Sets</a> (<a href="https://www.amazon.com/dp/1073606279">In Print</a>) . Obviously I have also created these web comics and hope to do more work in the future.
@@ -57,12 +57,12 @@ class ComicInfo extends Component {
             <li><a href="https://xkcd.com/">xkcd</a></li>
             <li><a href="https://www.smbc-comics.com/">smbc</a></li>
             <li><a href="https://www.buttersafe.com/">buttersafe</a></li>
-            <li><a href="http://mistakes.ryanestrada.com/">Ryan Made Mistakes</a></li>
             <li><a href="https://www.nerfnow.com/">Nerf Now</a></li>
             <li><a href="https://www.webtoons.com/en/challenge/system32comics/list?title_no=235074">System32Comics</a></li>
             <li><a href="http://madeofmistake.com/">MadeOfMistake</a></li>
             <li><a href="https://heybuddycomics.com/">Hey Buddy Comics</a></li>
             <li><a href="http://leftycartoons.com/">Lefty Cartoons</a></li>
+            <li><a href="http://phdcomics.com/">PhD Comics</a></li>
           </ul>
         </div>
         <h3>Children's Books</h3>
@@ -79,7 +79,7 @@ class ComicInfo extends Component {
           <ul>
             <li><a href="https://www.joincampaignzero.org">Campaign Zero</a> (Strategies to End Police Violence in America)</li>
             <li><a href="http://gritsforbreakfast.org/">Grits For Breakfast</a> (Local Texas Criminal Justice)</li>
-            <li><a href="https://austinjustice.org/">Austin Justice Coalition</a> (Local Austin Racial Justice Group)</li>
+            <li><a href="https://www.amazon.com/dp/0465060684">Why Are All the Black Kids Sitting Together in the Cafeteria?: And Other Conversations About Race</a> (Good Book About Racism in America)</li>
           </ul>
         </div>
         <h3>Others</h3>
@@ -88,6 +88,8 @@ class ComicInfo extends Component {
             <li><a href="http://www.welcometonightvale.com/">Welcome to Night Vale</a> (Weird, Creepy, Funny podcast)</li>
             <li><a href="https://littlefreelibrary.org/">Little Free Library</a> (Making Books Accessible)</li>
             <li><a href="https://www.sevenhillsherald.com/">Seven Hills Herald</a> (Satirizing The Modern Church)</li>
+            <li><a href="https://pbskids.org/elinor">Elinor Wonders Why</a> (Educational Kids Show)</li>
+            <li><a href="https://www.amazon.com/dp/1419729071">Invisible Women: Data Bias in a World Designed for Men</a> (Book about data bias against women)</li>
           </ul>
         </div>
       </div>
