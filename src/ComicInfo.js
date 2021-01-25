@@ -51,6 +51,7 @@ class ComicInfo extends Component {
             <li><a href="https://quackack.com/rss/comic.rss">RSS Feed</a></li>
           </ul>
         </div>
+        <h2>Cool Things Other People Do</h2>
         <h3>Other Web Comics</h3>
         <div className="CenteredList">
           <ul>
@@ -65,7 +66,7 @@ class ComicInfo extends Component {
             <li><a href="http://phdcomics.com/">PhD Comics</a></li>
           </ul>
         </div>
-        <h3>Children's Books</h3>
+        <h3>Picture Books</h3>
         <div className="CenteredList">
           <ul>
             <li><a href="https://www.amazon.com/dp/1073606279">My Books</a> (<a href="https://quackack.com/data/books/pdfs/A_Stroll_Through_Cecilys_Sets.pdf">Free Online</a>)</li>
@@ -74,12 +75,19 @@ class ComicInfo extends Component {
             <li><a href="https://www.sourcebooks.com/baby-university.html">Baby University</a></li>
           </ul>
         </div>
+        <h3>Text (and audio) Books</h3>
+        <div className="CenteredList">
+          <ul>
+            <li><a href="https://www.amazon.com/dp/0465060684">Why Are All the Black Kids Sitting Together in the Cafeteria?: And Other Conversations About Race</a> (Racism in America)</li>
+            <li><a href="https://invisiblewomenbook.co.uk/">Invisible Women: Data Bias in a World Designed for Men</a> (Data Bias Against Women)</li>
+            <li><a href="https://weaponsofmathdestructionbook.com/">Weapons of Math Destruction</a> (Damage from Misapplication of Mathematical Models)</li>
+          </ul>
+        </div>
         <h3>Black Lives Matter</h3>
         <div className="CenteredList">
           <ul>
             <li><a href="https://www.joincampaignzero.org">Campaign Zero</a> (Strategies to End Police Violence in America)</li>
             <li><a href="http://gritsforbreakfast.org/">Grits For Breakfast</a> (Local Texas Criminal Justice)</li>
-            <li><a href="https://www.amazon.com/dp/0465060684">Why Are All the Black Kids Sitting Together in the Cafeteria?: And Other Conversations About Race</a> (Good Book About Racism in America)</li>
           </ul>
         </div>
         <h3>Others</h3>
@@ -89,7 +97,6 @@ class ComicInfo extends Component {
             <li><a href="https://littlefreelibrary.org/">Little Free Library</a> (Making Books Accessible)</li>
             <li><a href="https://www.sevenhillsherald.com/">Seven Hills Herald</a> (Satirizing The Modern Church)</li>
             <li><a href="https://pbskids.org/elinor">Elinor Wonders Why</a> (Educational Kids Show)</li>
-            <li><a href="https://www.amazon.com/dp/1419729071">Invisible Women: Data Bias in a World Designed for Men</a> (Book about data bias against women)</li>
           </ul>
         </div>
       </div>
