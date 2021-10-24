@@ -58,11 +58,12 @@ class ComicInfo extends Component {
             <li><a href="https://xkcd.com/">xkcd</a></li>
             <li><a href="https://www.smbc-comics.com/">smbc</a></li>
             <li><a href="https://www.buttersafe.com/">buttersafe</a></li>
-            <li><a href="https://www.nerfnow.com/">Nerf Now</a></li>
-            <li><a href="https://www.webtoons.com/en/challenge/system32comics/list?title_no=235074">System32Comics</a></li>
             <li><a href="http://madeofmistake.com/">MadeOfMistake</a></li>
-            <li><a href="https://heybuddycomics.com/">Hey Buddy Comics</a></li>
+            <li><a href="https://www.webtoons.com/en/challenge/system32comics/list?title_no=235074">System32Comics</a></li>
+            <li><a href="https://goomics.net">Goomics</a></li>
             <li><a href="http://leftycartoons.com/">Lefty Cartoons</a></li>
+            <li><a href="https://heybuddycomics.com/">Hey Buddy Comics</a></li>
+            <li><a href="https://www.nerfnow.com/">Nerf Now</a></li>
             <li><a href="http://phdcomics.com/">PhD Comics</a></li>
           </ul>
         </div>
@@ -88,6 +89,7 @@ class ComicInfo extends Component {
           <ul>
             <li><a href="https://www.joincampaignzero.org">Campaign Zero</a> (Strategies to End Police Violence in America)</li>
             <li><a href="http://gritsforbreakfast.org/">Grits For Breakfast</a> (Local Texas Criminal Justice)</li>
+            <li><a href="https://ethicalcs.github.io/">Ethical CS</a></li>
           </ul>
         </div>
         <h3>Others</h3>
@@ -95,8 +97,6 @@ class ComicInfo extends Component {
           <ul>
             <li><a href="http://www.welcometonightvale.com/">Welcome to Night Vale</a> (Weird, Creepy, Funny podcast)</li>
             <li><a href="https://littlefreelibrary.org/">Little Free Library</a> (Making Books Accessible)</li>
-            <li><a href="https://www.sevenhillsherald.com/">Seven Hills Herald</a> (Satirizing The Modern Church)</li>
-            <li><a href="https://pbskids.org/elinor">Elinor Wonders Why</a> (Educational Kids Show)</li>
           </ul>
         </div>
       </div>

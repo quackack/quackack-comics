@@ -1,6 +1,6 @@
 //File holds static information about website, such as the number of comics.
 
-export const COMIC_COUNT = 55;
+export const COMIC_COUNT = 81;
 
 var os = require('os');
 

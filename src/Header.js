@@ -10,7 +10,6 @@ class Header extends Component {
         <Image className="LeftIcon" images={[SmallIcon]} title="Quackack Icon" alt="A speaker with a duck bill taped to it."/>
         <h1>Quackack</h1>
         <p>A web comic about computer science, and randomness. "Making the comics no one else would."</p>
-        <p>Site uses AVIF, may require you to press ctrl+F5 to load. This is a browser issue, not my website's.</p>
       </div>
     )
   }
