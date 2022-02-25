@@ -12,4 +12,4 @@ done
 
 ./cavif.exe -i ./HighQualityVersions/AgentPSPACE.png -o ./avif_version/46.avif --encoder-usage good --cpu-used 0 --threads 2 --show-result --qmax 24
 
-./cavif.exe -i ./HighQualityVersions/KeepItReal.png -o ./avif_version/75.avif --encoder-usage good --cpu-used 0 --threads 2 --show-result --qmax 16
+./cavif.exe -i ./HighQualityVersions/RaceStories2.png -o ./avif_version/92.avif --encoder-usage good --cpu-used 0 --threads 2 --show-result --qmax 16

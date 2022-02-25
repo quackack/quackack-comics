@@ -57,13 +57,13 @@ class ComicInfo extends Component {
           <ul>
             <li><a href="https://xkcd.com/">xkcd</a></li>
             <li><a href="https://www.smbc-comics.com/">smbc</a></li>
-            <li><a href="https://www.buttersafe.com/">buttersafe</a></li>
             <li><a href="http://madeofmistake.com/">MadeOfMistake</a></li>
-            <li><a href="https://www.webtoons.com/en/challenge/system32comics/list?title_no=235074">System32Comics</a></li>
-            <li><a href="https://goomics.net">Goomics</a></li>
+            <li><a href="https://handwaving.github.io/">HANDWAVING</a></li>
+            <li><a href="https://mathwithbaddrawings.com/">Math with Bad Drawings</a></li>
+            <li><a href="https://www.buttersafe.com/">buttersafe</a></li>
             <li><a href="http://leftycartoons.com/">Lefty Cartoons</a></li>
+            <li><a href="https://www.webtoons.com/en/challenge/system32comics/list?title_no=235074">System32Comics</a></li>
             <li><a href="https://heybuddycomics.com/">Hey Buddy Comics</a></li>
-            <li><a href="https://www.nerfnow.com/">Nerf Now</a></li>
             <li><a href="http://phdcomics.com/">PhD Comics</a></li>
           </ul>
         </div>
@@ -71,6 +71,7 @@ class ComicInfo extends Component {
         <div className="CenteredList">
           <ul>
             <li><a href="https://www.amazon.com/dp/1073606279">My Books</a> (<a href="https://quackack.com/data/books/pdfs/A_Stroll_Through_Cecilys_Sets.pdf">Free Online</a>)</li>
+            <li><a href="https://www.amazon.com/dp/0759556865">Bake Infinite Pie with X + Y</a></li>
             <li><a href="https://www.amazon.com/Margot-Alesund/e/B06X6JSMM1">The Baby Biochemist</a></li>
             <li><a href="https://www.amazon.com/Dr-Dhoot/e/B07L6P5176">Tinker Toddlers</a></li>
             <li><a href="https://www.sourcebooks.com/baby-university.html">Baby University</a></li>
@@ -87,7 +88,7 @@ class ComicInfo extends Component {
         <h3>Black Lives Matter</h3>
         <div className="CenteredList">
           <ul>
-            <li><a href="https://www.joincampaignzero.org">Campaign Zero</a> (Strategies to End Police Violence in America)</li>
+            <li><a href="https://policescorecard.org/">Police Score Card</a> (A Nationwide Public Evaluation of Policing)</li>
             <li><a href="http://gritsforbreakfast.org/">Grits For Breakfast</a> (Local Texas Criminal Justice)</li>
             <li><a href="https://ethicalcs.github.io/">Ethical CS</a></li>
           </ul>
